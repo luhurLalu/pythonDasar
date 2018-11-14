@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+
+{% block title %}
+{{title}}
+{% endblock title %}
+
+{% block heading %}
+{{heading}}
+{% endblock heading %}
+
+{% block content %}
+
+{% include "handphone/snippets/navbar.html" %}
+
+{% for sort in details %}
+<a href="/handphone/detail/{{sort.slug}}"><p>{{sort.tipe}}</p></a>
+<p>Publish on : {{sort.publish}}</p>
+<br>
+
+{% endfor %}
+{% endblock content %}

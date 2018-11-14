@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{title}}
+{% endblock title %}
+
+{% block heading %}
+{{heading}}
+{% endblock heading %}
+
+{% block content %}
+{% include "handphone/snippets/navbar.html" %}
+
+<h3>Merk : {{details.tipe}}</h3>
+<p>Type : {{details.merk}}</p>
+<p>{{details.about}}</p>
+<p>Publish on : {{details.publish}}</p>
+<p>Time Updated : {{details.update}}</p>
+
+{% endblock content %}

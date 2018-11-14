@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{title}}
+{% endblock title %}
+
+{% block heading %}
+{{heading}}
+{% endblock heading %}
+
+{% block content %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >        
+        <a class="navbar-brand" href="{% url 'laptop:index' %}">All-Merk</a>    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+    
+              {% for show in unik %}
+              <li class="nav-item active">
+                <a class="nav-link" href="{% url 'laptop:showC' show.merk %}">{{show.merk}}<span class="sr-only">(current)</span></a>
+            </li>  
+              {% endfor %}
+            
+            
+          </ul>
+        </div>
+      </nav>
+    <br>
+
+<h3>{{slugs.tipe}}</h3>
+<p>{{slugs.merk}}</p>
+<p>{{slugs.spesifikasi}}</p>
+<p>publish on :{{slugs.publish}}</p>
+
+
+{% endblock content %}

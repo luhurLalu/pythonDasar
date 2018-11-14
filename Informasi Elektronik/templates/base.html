@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <title>
+        {% block title %}
+        
+        {% endblock title %}
+    </title>
+    {% include "snippets/styles.html" %}
+</head>
+<body>    
+    {% include "snippets/navbar.html" %}
+<div class="container" style="margin-top: 100px">
+    <h3>
+    {% block  heading%}    
+    
+    {% endblock heading %}
+    </h3>
+
+    <div>       
+            <p>
+                {% block content %}
+                
+                {% endblock content %}
+            </p>        
+    </div>
+</div>
+    {% include "snippets/script.html" %}
+</body>
+</html>
