@@ -1,0 +1,35 @@
+#gambar{
+    width: 100%;    
+}
+
+h1 {	
+    color: #f00;        
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: none;
+    margin: 1%;
+    padding: 0%;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 10px;    
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;    
+}
+
+nav ul{        
+    background-color:black;
+    list-style-type: none; 
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+nav li{
+    float: left;
+}
+
+nav a:hover{
+    color:#000;
+    background-color:white;
+}

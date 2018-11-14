@@ -1,0 +1,26 @@
+<!-- Index Dosen -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+</head>
+<body>
+	<h1>Selamat datang di {{ head }}</h1>
+	<ul>
+		<img style="width: 100%" src="/static/dosen/img/dosen.jpg">
+		{%for link,name in nav%}
+		<li>
+			<a href="{{link}}">{{name}}</a>
+		</li>
+		{%endfor%}
+	<ul>
+		<li>
+			<a href="/dosen/listDosen">Daftar Dosen</a>
+		</li>
+		<li>
+			<a href="/dosen/biodata">Biodata Dosen</a>
+		</li>
+	</ul>
+</ul>
+</body>
+</html> 

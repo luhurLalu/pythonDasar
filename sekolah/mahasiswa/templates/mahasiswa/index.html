@@ -1,0 +1,32 @@
+<!-- index Mahasiswa -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+</head>
+<body>
+	<img src="/static/mahasiswa/img/mahasiswa.jpg">
+	<h1>Ini adalah {{head}}</h1>			
+	<ul>
+		{%for link,name in nav%}
+		<li>
+			<a href="{{link}}">{{name}}</a>
+		</li>
+		{%endfor%}
+
+
+	<ul>
+
+		<li>			
+			<a href="/mahasiswa/alumni">Alumni Mahasiswa</a>
+		</li>
+		<li>
+			<a href="/mahasiswa/maba">Mahasiswa Baru</a>
+		</li>
+	</ul>
+	</ul>
+
+
+
+</body>
+</html>

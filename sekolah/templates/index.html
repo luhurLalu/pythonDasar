@@ -1,0 +1,35 @@
+<!-- Index Home -->
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	<link rel="stylesheet" type="text/css" href="{%static "css/styles.css"%}">
+	<link rel="stylesheet" type="text/css" href="{%static css_app%}">
+
+</head>
+<body>
+	<img id="gambar" src="{%static img%}">
+
+	<h1>Selamat datang di {{ head }}</h1>
+	<nav>
+		<ul>
+			{%for link,name in var%}
+			<li>
+				<a href="{{link}}">{{name}}</a>
+			</li>
+			{%endfor%}	
+
+
+		</ul>
+	</nav>
+	<ul>
+		{%for link,name in sub%}
+		<li>
+			<a href="{{link}}">{{name}}</a>
+		</li>
+		{%endfor%}
+	</ul>		
+
+</body>
+</html> 
