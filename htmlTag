@@ -1,0 +1,41 @@
+<!–   –>   Memberi komentar atau keterangan. Kalimat yang terletak pada tag kontiner ini tidak akan terlihat pada browser
+<a href>  Membuat link ke halaman lain atau ke bagian lain dari halaman tersebut 
+<a name>  Membuat nama bagian yang didefinisikan pada link pada halaman yang sama 
+<applet>  Sebagai awal dari Java applets 
+<area>  Mendefinisikan daerah yang dapat diklik (link) pada image map
+<b>  Membuat teks tebal 
+<basefont>  Membuat atribut teks default seperti jenis, ukuran dan warna font 
+<bgsound>  Memberi (suara latar) background sound pada halaman web 
+<big> Memperbesar ukuran teks sebesar satu point dari defaultnya 
+<blink>  Membuat teks berkedip 
+<br>  Pindah baris 
+<caption>  Membuat caption pada tabel 
+<center>  Untuk perataan tengah terhadap teks atau gambar 
+<comment>  Meletakkan komentar pada halaman web tidak tidak akan nampak pada browser
+ <dd>  Indents teks 
+<div>  Represents different sections of text. 
+<embed>  Menambahkan sound or file avi ke halaman web 
+<fn> Seperti tag  <a name> 
+ <font>  Mengganti jenis, ukuran, warna huruf yang akan digunakan utk teks
+ <form>  Mendefinisikan input form 
+<frame>  Mendefinisikan frame 
+<frameset>  Mendefinisikan attribut halaman yang akan menggunakan frame 
+<h1>…<h6>  Ukuran font 
+<hr>  Membuat garis horizontal 
+<html>  Bararti dokumen html 
+<i>  Membuat teks miring 
+<img>  Image, imagemap atau an animation 
+<input>    Mendefinisikan input field pada form 
+<li>  Membuat bullet point atau baris baru pada list (berpasangan dengan tag <dir>, <menu>, <ol> and <ul> ) 
+<map>  Mendefinisikan client-side map 
+<marquee>  Membuat scrolling teks (teks berjalan) 
+<nobr>  Mencegah ganti baris pada teks atau images 
+<noframes>  Jika browser user tidak mendukung frame 
+<ol>  Mendefinisikan awal dan akhir list 
+<p>  Ganti paragraf 
+<pre>  Membuat teks dengan ukuran huruf yg sama 
+<script> Mendefinisikan awal script 
+<table> Membuat tabel 
+<td>  Kolom pada tabel 
+<tr> Baris pada tabel 
+<u>  Membuat teks bergaris bawah

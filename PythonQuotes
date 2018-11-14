@@ -1,0 +1,10 @@
+anaconda = aplikasi yang membawa banyak package dan tool yg memudahkan dalam pemrograman bahasa Python
+conda = tool yang membantu pemasangan package di anaconda
+interpreter = merupakan penerjamah dalam eksekusi code dalam python(protocol)
+library = gabungan beberapa fungsi yg kompleks yg dapat dipanggil kapanpun pada saat proses coding Pyton
+django = merupakan framework terkenal dari Python yang banyak digunakan perusahaan besar sperti : ['NASA','CIA','Instagram', dll]
+html = bahasa markup untuk membuat kerangka website
+css = pelengkap dari html untuk desain tampilan web
+virtual environtment = aplikasi khusus yang mengisolasi ruang lingkup kerja python, **berperan besar untuk eksekusi program Python dengan versi berbeda
+package = kumpulan dari beberapa class dan interface yang memiliki fungsi berbeda yang dikemas menjadi satu wadah
+Jupyter = Editor pada python seperti web application yg diakses melalui localhost(sama dengan python console tetapi kode bisa disimpan dalam bentuk dokumen dan code bisa di jalankan berdasarkan baris)

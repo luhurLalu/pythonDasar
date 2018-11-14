@@ -1,0 +1,14 @@
+>>> from django.contrib.auth.models import User
+>>> user=User.objects.create_user('foo', password='bar')
+>>> user.is_superuser=True
+>>> user.is_staff=True
+>>> user.save()
+
+>>>sudo /opt/lampp/lampp stop
+
+masuk env=source activate pskripsi
+
+-Makemigration
+-Migration
+>>>Masuk ke Jupyter = jupyter lab
+
