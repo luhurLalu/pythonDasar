@@ -1,0 +1,18 @@
+<title>Course | List</title>
+{% extends "index.html" %}
+
+{% block content %}
+
+{% if messages %}
+    {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}" role="alert">
+                {{ message }}
+            </div>
+    {% endfor %}     
+{% endif %} 
+
+<h5>Welcome to course information !</h5>
+
+{% include "list.html" %}
+
+{% endblock content %}
